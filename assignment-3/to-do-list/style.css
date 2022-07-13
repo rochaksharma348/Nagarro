@@ -1,0 +1,23 @@
+li {
+    margin: 1.5%;
+    font-size: 130%;
+    position: relative;
+    background-color: rgb(34, 180, 34);
+}
+
+/* #myBtn {
+    margin: 1.5%;
+    text-align: center;
+} */
+
+.deleteBtn {
+    float: right;
+}
+
+.fa-check {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+body {
+    background-image: url("../to-do-list/media/background.jpg");
+}
