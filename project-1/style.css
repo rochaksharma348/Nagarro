@@ -1,0 +1,19 @@
+#box {
+    background-color: bisque;
+    height: 40vh;
+    width: 50vw;
+    visibility: hidden;
+}
+
+body {
+    background-color: rgb(208, 241, 241);
+}
+
+#box.show {
+    visibility: visible;
+}
+
+i {
+    float: right;
+    margin: 2%;
+}
