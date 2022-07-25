@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" -->
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Copy-to-clipboard</title>
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <div id="margin">Copy to clipboard</div>
+        <textarea placeholder="Enter something funny." id="copyText" name="text" rows="4" class="text"
+            style="overflow: hidden; word-wrap: break-word; resize:vertical; height: 160px; ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ullam placeat vel aliquid a corporis!
+        </textarea>
+        <br>
+        <input id="copyBtn" class="button" type="submit" value="Copy to clipboard">
+        <input id="clearBtn" class="button" type="submit" style="margin-left: 10%; background-image: none; background-color:red" value="Clear copid text">
+        <input id="pasteBtn" class="button" style="float: right;" type="submit" value="Paste">
+        <br><br>
+        <textarea placeholder="Enter something funny." id="pasteText" name="text" rows="4" class="text"
+            style="overflow: hidden; word-wrap: break-word; resize:vertical; height: 160px; ">
+        </textarea>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="https://static.tumblr.com/maopbtg/oimmiw86r/jquery.autosize-min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
